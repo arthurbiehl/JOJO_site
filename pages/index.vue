@@ -1,0 +1,29 @@
+<template>
+
+
+<a href="/users">usuarios</a>
+<a href="stand">stands</a>
+
+</template>
+
+<script setup>
+
+useHead({
+  title: 'JOJO'
+});
+
+</script>
+
+<style>
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+svg {
+  position: absolute;
+  z-index: 0;
+}
+</style>

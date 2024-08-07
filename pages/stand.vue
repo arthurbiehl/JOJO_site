@@ -1,0 +1,3 @@
+<template>
+    <StandsCard></StandsCard>
+</template>
