@@ -1,9 +1,7 @@
 <template>
 
 
-<a href="/users">usuarios</a>
-<a href="stand">stands</a>
-
+<ComponentHeader></ComponentHeader>
 </template>
 
 <script setup>

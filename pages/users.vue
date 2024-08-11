@@ -1,6 +1,30 @@
 <template>
 
-<UsersCard></UsersCard>
+    <ComponentHeader></ComponentHeader>
 
+    <div class="users">
+        <div class="container_users">
+            <UsersCard></UsersCard>
+        </div>
+    </div>
 
 </template>
+
+<style>
+.users {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_users {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+</style>
