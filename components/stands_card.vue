@@ -2,7 +2,7 @@
 
 
     <div class="stands" v-for="item in stands" :key="item">
-        <img :src="item.image" alt="">
+        <img :src="`https://jojos-bizarre-api.netlify.app/assets/${item.image}`" alt="">
         <h2>{{ item.name }}</h2>
         <a :href="`/stand_page/${item.id}`">clicar</a>
 

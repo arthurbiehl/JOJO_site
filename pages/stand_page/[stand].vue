@@ -8,6 +8,8 @@
         <p>{{ stand.abilities }}</p>
         <p>{{ stand.catchphrase }}</p>
         <p>{{ stand.nationality }}</p>
+        <img :src="`https://jojos-bizarre-api.netlify.app/assets/${stand.image}`" alt="">
+
         <img :src="stand.image" alt="">
 
     </div>

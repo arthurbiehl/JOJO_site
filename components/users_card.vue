@@ -2,7 +2,7 @@
 
 
     <div class="jojo" v-for="item in jojo" :key="item">
-        <img :src="item.image" alt="">
+        <img :src="`https://jojos-bizarre-api.netlify.app/assets/${item.image}`" alt="">
         <h2>{{ item.name }}</h2>
         <a :href="`/jojo_page/${item.id}`">clicar</a>
 

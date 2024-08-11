@@ -8,6 +8,8 @@
         <p>{{ jojoP.abilities }}</p>
         <p>{{ jojoP.catchphrase }}</p>
         <p>{{ jojoP.nationality }}</p>
+        <img :src="`https://jojos-bizarre-api.netlify.app/assets/${jojoP.image}`" alt="">
+
         <img :src="jojoP.image" alt="">
 
     </div>
