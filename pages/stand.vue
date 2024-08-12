@@ -11,6 +11,14 @@
 
 </template>
 
+<script setup>
+
+useHead({
+  title: 'JOJO site - stands'
+});
+
+</script>
+
 <style>
 .stands_index {
     width: 100%;

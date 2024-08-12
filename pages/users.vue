@@ -10,6 +10,14 @@
 
 </template>
 
+<script setup>
+
+useHead({
+  title: 'JOJO site - usuarios'
+});
+
+</script>
+
 <style>
 .users {
     width: 100%;

@@ -7,7 +7,7 @@
 <script setup>
 
 useHead({
-  title: 'JOJO'
+  title: 'JOJO site - inicio'
 });
 
 </script>

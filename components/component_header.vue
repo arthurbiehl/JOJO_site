@@ -2,7 +2,7 @@
 
     <div class="header">
         <div class="container_header">
-            <img src="../static/logo.png" alt="">
+            <a href="/"><img src="../static/logo.png" alt=""></a>
             <div class="links_header">
                 <a href="/users">USUARIOS</a>
                 <a href="/stand">STANDS</a>
@@ -13,7 +13,6 @@
 </template>
 
 <style>
-
 .header {
     width: 100%;
     height: 80px;
@@ -29,11 +28,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-size: contain;
 }
 
 .container_header img {
     width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .links_header {
@@ -47,5 +48,4 @@
 .links_header a {
     color: white;
 }
-
 </style>
